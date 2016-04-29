@@ -1,0 +1,118 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	background-color: #CBBCD4;
+	color: white;
+	font-family: 'Lobster Two', cursive;
+}
+
+.navbar-inverse, .navbar-brand {
+	background-color: #34283B;
+	color: white !important;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	font-size: 24px;
+}
+
+a {
+	color: white !important;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	display: block;
+	position: relative;
+	float: left;
+	border:1px solid #000;
+}
+  
+li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+ul li a {
+	display: block;
+	background: #000;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+
+li:hover ul {
+	display: block; 
+	position: absolute;
+}
+
+li:hover li {
+	float: none;
+}
+  
+li:hover li a:hover {
+	background: #000;
+}
+
+#drop-nav li ul li {
+	border-top: 0px;
+}
+
+#drop-nav {
+	float: right;
+}
+
+.thumb {
+    margin-bottom: 20px;
+    /* max-height: 168.563px; */
+}
+
+.img-responsive {
+	
+	max-height: 168.563px;
+}
+
+.info {
+	width: 100%;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.info > img {
+	width: 15%;
+	float: left;
+}
+
+p {
+	font-family: glyphicons;
+	font-size: 18px;
+	margin-left: 18%;
+	padding: 10px;
+}
+
+
+footer {
+    margin: 50px 0;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 435px) {
+	.img-responsive {
+		max-height: 93.4531px;
+	}
+}
+
